@@ -2,7 +2,7 @@
 title: "About Myself"
 ---
 
-![](C:/Users/Venkata/Desktop/stat1/Website project/Website_project/website/images/myimage.png)
+
 
 
 
