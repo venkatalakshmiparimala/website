@@ -20,16 +20,7 @@ I led several database projects under the guidance of a database architect with 
 
 In addition to my technical expertise, I have worked on multiple projects in the affordable housing sector. I designed solutions for resident management, rental subsidy calculations, eligibility determination, and rent calculations. My contributions to the development of these systems ensured that they were reliable, secure, and user-friendly. I also worked on encrypting sensitive resident data ensuring full compliance with data protection standards.
 
-### Key Projects
-
-- **Microservices Architecture Development**: Spearheaded a project that improved scalability by 50% and reduced deployment times.
-- **AWS Cloud Migration**: Led the migration of 40% of client documents from on-premises servers to AWS S3, solving critical storage challenges.
-- **Automated Data Import into the system**: Redesigned a data module using automation with Python and OpenAI, to import 1,50,000 records every year resulting in more efficient data handling and improved eligibility calculations for affordable housing product.
-- **Sensitive Data Encryption**: Worked on encrypting sensitive resident data across the entire database to ensure compliance with security standards.
-- **Document Creation automation**: Developed more than 56 state-specific certification documents for affordable housing using custom scripts and database integration and automated the process of filling the certifications for every resident on certification process using object oriented PHP, postgres sql and adobe techniques.
-
-
-# Roles at Entrata India
+# Experience
 
 ## Software Engineer (October 2018 - August 2024)
 In this role, I focused on developing scalable solutions within the property management software sector. My key responsibilities included:
@@ -52,6 +43,16 @@ In this initial role, I focused on acquiring essential skills in software develo
 
 - **Training and Development**: Engaged in training sessions with experienced engineers, laying the groundwork for my subsequent roles.
 - **Project Assistance**: Assisted in various projects, contributing to code development and testing efforts.
+
+### Key Projects
+
+- **Microservices Architecture Development**: Spearheaded a project that improved scalability by 50% and reduced deployment times.
+- **AWS Cloud Migration**: Led the migration of 40% of client documents from on-premises servers to AWS S3, solving critical storage challenges.
+- **Automated Data Import into the system**: Redesigned a data module using automation with Python and OpenAI, to import 1,50,000 records every year resulting in more efficient data handling and improved eligibility calculations for affordable housing product.
+- **Sensitive Data Encryption**: Worked on encrypting sensitive resident data across the entire database to ensure compliance with security standards.
+- **Document Creation automation**: Developed more than 56 state-specific certification documents for affordable housing using custom scripts and database integration and automated the process of filling the certifications for every resident on certification process using object oriented PHP, postgres sql and adobe techniques.
+
+
 
 ### Technical Skills  
 - **Databases**: PostgreSQL, MySQL  
