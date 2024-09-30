@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Myself",
+    "section": "",
+    "text": "Venkata Lakshmi Parimala Pasupuleti\n\nSoftware Engineer | Web & Database Development Specialist\nI have over seven years of experience in web development and database engineering, and my career has been built on a passion for creating high-quality, efficient solutions in dynamic work environments. I enjoy collaborating with teams and contributing to projects that solve real-world problems, especially in the areas of database design, scalable systems, and cloud-based architecture.\nI have experience in property management software development with Entrata India, where I worked within an Agile Scrum framework. I actively participated in sprint planning, project execution, and project management. I collaborated closely with cross-functional teams to deliver solutions that enhanced product performance and met client requirements. From optimizing SQL queries to developing scalable microservices, I consistently focused on improving system efficiency and addressing complex technical challenges.\nOne of the highlights of my experience was developing a microservices-based architecture that improved system scalability by 50%, and reduced deployment time by 30%, utilizing technologies such as Docker and Kubernetes. I was also deeply involved in migrating thousands of client documents from local servers to AWS cloud storage, which resolved critical storage limitations and ensured data security and accessibility.\nI led several database projects under the guidance of a database architect with 21 years of experience, gaining in-depth knowledge in database management and architecture design. Utilizing these skills, I contributed to building database structures for various projects and also served as a virtual database administrator for the product. In this role, I delivered multiple database optimization solutions to enhance product efficiency.\nIn addition to my technical expertise, I have worked on multiple projects in the affordable housing sector. I designed solutions for resident management, rental subsidy calculations, eligibility determination, and rent calculations. My contributions to the development of these systems ensured that they were reliable, secure, and user-friendly. I also worked on encrypting sensitive resident data ensuring full compliance with data protection standards.\n\n\nKey Projects\n\nMicroservices Architecture Development: Spearheaded a project that improved scalability by 50% and reduced deployment times.\nAWS Cloud Migration: Led the migration of 40% of client documents from on-premises servers to AWS S3, solving critical storage challenges.\nIncome Limits Module Redesign: Redesigned the income limits module using automation with Python and OpenAI, resulting in more efficient data handling and improved eligibility calculations for affordable housing.\nSensitive Data Encryption: Worked on encrypting sensitive resident data across the entire database to ensure compliance with security standards.\nState-wise Certification Documents: Developed more than 56 state-specific certification documents for affordable housing using custom scripts and database integration.\n\n\n\nEducation\n\nMaster’s in Data Analytics Engineering\nGeorge Mason University, Virginia, USA (2024 - 2026)\nBachelor of Technology in Computer Science & Technology\nSree Venkateshwara College of Engineering, Nellore, India (2013 - 2017)\n\n\n\nTechnical Skills\n\nDatabases: PostgreSQL, MySQL\n\nBackend Development: PHP, Python\n\nFrontend Technologies: AJAX, HTML, JavaScript, jQuery\n\nCloud Technologies: AWS, Docker, Kubernetes\n\nFrameworks: MVC, Singleton, Fusebox\n\nAgile Tools: Jira, ClickUp\n\nVersion Control: GIT, SVN\n\nI’m always eager to connect with like-minded professionals and share ideas. Feel free to reach out to me on LinkedIn."
+  },
+  {
+    "objectID": "about.html#i-have-seven-years-of-experience-in-web-development-and-database-engineering-with-a-strong-focus-on-delivering-efficient-high-quality-solutions.-i-thrive-in-collaborative-and-challenging-environments-where-i-can-utilize-my-technical-skills-to-solve-problems-and-enhance-product-quality.-my-passion-lies-in-database-architecture-optimizing-sql-queries-and-developing-scalable-microservices-to-meet-diverse-client-needs.",
+    "href": "about.html#i-have-seven-years-of-experience-in-web-development-and-database-engineering-with-a-strong-focus-on-delivering-efficient-high-quality-solutions.-i-thrive-in-collaborative-and-challenging-environments-where-i-can-utilize-my-technical-skills-to-solve-problems-and-enhance-product-quality.-my-passion-lies-in-database-architecture-optimizing-sql-queries-and-developing-scalable-microservices-to-meet-diverse-client-needs.",
+    "title": "About",
+    "section": "I have seven years of experience in web development and database engineering, with a strong focus on delivering efficient, high-quality solutions. I thrive in collaborative and challenging environments where I can utilize my technical skills to solve problems and enhance product quality. My passion lies in database architecture, optimizing SQL queries, and developing scalable microservices to meet diverse client needs.",
+    "text": "I have seven years of experience in web development and database engineering, with a strong focus on delivering efficient, high-quality solutions. I thrive in collaborative and challenging environments where I can utilize my technical skills to solve problems and enhance product quality. My passion lies in database architecture, optimizing SQL queries, and developing scalable microservices to meet diverse client needs."
+  },
+  {
+    "objectID": "about.html#at-entrata-india-db-xento-systems-i-was-actively-involved-in-agile-scrum-contributing-to-sprint-planning-estimation-and-execution-of-various-technical-projects.-my-work-ranged-from-developing-microservices-based-architecture-that-improved-system-scalability-by-50-to-migrating-client-documents-to-aws-helping-resolve-critical-storage-challenges.-additionally-i-worked-on-creating-robust-solutions-for-affordable-housing-including-rent-calculations-eligibility-management-and-secure-handling-of-residents-sensitive-data.",
+    "href": "about.html#at-entrata-india-db-xento-systems-i-was-actively-involved-in-agile-scrum-contributing-to-sprint-planning-estimation-and-execution-of-various-technical-projects.-my-work-ranged-from-developing-microservices-based-architecture-that-improved-system-scalability-by-50-to-migrating-client-documents-to-aws-helping-resolve-critical-storage-challenges.-additionally-i-worked-on-creating-robust-solutions-for-affordable-housing-including-rent-calculations-eligibility-management-and-secure-handling-of-residents-sensitive-data.",
+    "title": "About",
+    "section": "At Entrata India (Db Xento Systems), I was actively involved in Agile Scrum, contributing to sprint planning, estimation, and execution of various technical projects. My work ranged from developing microservices-based architecture that improved system scalability by 50%, to migrating client documents to AWS, helping resolve critical storage challenges. Additionally, I worked on creating robust solutions for affordable housing, including rent calculations, eligibility management, and secure handling of residents’ sensitive data.",
+    "text": "At Entrata India (Db Xento Systems), I was actively involved in Agile Scrum, contributing to sprint planning, estimation, and execution of various technical projects. My work ranged from developing microservices-based architecture that improved system scalability by 50%, to migrating client documents to AWS, helping resolve critical storage challenges. Additionally, I worked on creating robust solutions for affordable housing, including rent calculations, eligibility management, and secure handling of residents’ sensitive data."
+  },
+  {
+    "objectID": "about.html#some-of-the-key-projects-i-handled-include",
+    "href": "about.html#some-of-the-key-projects-i-handled-include",
+    "title": "About",
+    "section": "Some of the key projects I handled include:",
+    "text": "Some of the key projects I handled include:\n\nDesigning a scalable microservices architecture, improving system performance and reducing deployment time.\n\n\nManaging the migration of client documents from servers to AWS cloud storage, ensuring smooth transitions and data integrity.\n\n\nRedesigning the income limits module for affordable housing, using OpenAI and Python to automate and optimize the process.\n\n\nEncrypting sensitive resident data such as SSNs and phone numbers across the entire database, ensuring compliance with data security standards.\n\n\nCurrently, I am pursuing a Master’s in Data Analytics Engineering at George Mason University to further enhance my skills and knowledge. I’m always looking to grow and apply what I learn to drive innovation and efficiency in my work."
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "About",
+    "section": "Technical Skills:",
+    "text": "Technical Skills:\n\nDatabases: PostgreSQL, MySQL\n\n\nBackend Development: PHP, Python\n\n\nFrontend Technologies: AJAX, HTML, JavaScript, jQuery\n\n\nCloud Technologies: AWS, Docker, Kubernetes\n\n\nFrameworks: MVC, Singleton, Fusebox\n\n\nTools & Version Control: Jira, ClickUp, GIT, SVN"
+  },
+  {
+    "objectID": "about.html#software-engineer-october-2018---august-2024",
+    "href": "about.html#software-engineer-october-2018---august-2024",
+    "title": "About Myself",
+    "section": "Software Engineer (October 2018 - August 2024)",
+    "text": "Software Engineer (October 2018 - August 2024)\nIn this role, I focused on developing scalable solutions within the property management software sector. My key responsibilities included:\n\nDatabase Architecture and Optimization: Collaborated with cross-functional teams to build robust database structures and optimized SQL queries to enhance overall system efficiency.\nProduct Development: Created and deployed microservicable product which includes the improved system performance.\nClient Support: Delivering optimization solutions to enhance product performance and address client requirements.\nDatabase administration: Acted as a virtual database administrator and helped the team with various database solutions.\nProject Leading: Led various projects, contributing to project management and project support."
+  },
+  {
+    "objectID": "about.html#associate-software-engineer-july-2017---september-2018",
+    "href": "about.html#associate-software-engineer-july-2017---september-2018",
+    "title": "About Myself",
+    "section": "Associate Software Engineer (July 2017 - September 2018)",
+    "text": "Associate Software Engineer (July 2017 - September 2018)\nAs an Associate Software Engineer, I gained foundational skills in web development and database management. My contributions included:\n\nAgile Practices: Participated in daily stand-ups, sprint reviews, and retrospectives to ensure efficient project progress.\nTechnical Support: Provided troubleshooting assistance to resolve client issues, enhancing user experience.\nMentorship: Collaborated with senior engineers, learning advanced database management techniques and best practices."
+  },
+  {
+    "objectID": "about.html#trainee-january-2017---june-2017",
+    "href": "about.html#trainee-january-2017---june-2017",
+    "title": "About Myself",
+    "section": "Trainee (January 2017 - June 2017)",
+    "text": "Trainee (January 2017 - June 2017)\nIn this initial role, I focused on acquiring essential skills in software development and database management. My responsibilities included:\n\nTraining and Development: Engaged in training sessions with experienced engineers, laying the groundwork for my subsequent roles.\nProject Assistance: Assisted in various projects, contributing to code development and testing efforts.\n\n\nTechnical Skills\n\nDatabases: PostgreSQL, MySQL\n\nBackend Development: PHP, Python\n\nFrontend Technologies: AJAX, HTML, JavaScript, jQuery\n\nCloud Technologies: AWS, Docker, Kubernetes\n\nFrameworks: MVC, Singleton, Fusebox\n\nAgile Tools: Jira, ClickUp\n\nVersion Control: GIT, SVN\n\n\n\nEducation\n\nMaster’s in Data Analytics Engineering\nGeorge Mason University, Virginia, USA (2024 - 2026)\nBachelor of Technology in Computer Science & Technology\nSree Venkateshwara College of Engineering, Nellore, India (2013 - 2017)\n\nI’m always eager to connect with like-minded professionals and share ideas. Feel free to reach out to me on LinkedIn."
+  }
+]
