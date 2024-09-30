@@ -3,7 +3,7 @@ title: "About Myself"
 ---
 
 
-![](docs\myimage.jpg)
+![](C:/Users/Venkata/Desktop/stat1/Website project/website/docs/images/myimage.jpg)
 
 
 
