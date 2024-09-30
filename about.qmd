@@ -1,0 +1,71 @@
+---
+title: "About Myself"
+---
+
+![](C:/Users/Venkata/Desktop/stat1/Website project/Website_project/website/images/myimage.png)
+
+
+
+# Venkata Lakshmi Parimala Pasupuleti  
+### Software Engineer | Web & Database Development Specialist
+
+I have over seven years of experience in web development and database engineering, and my career has been built on a passion for creating high-quality, efficient solutions in dynamic work environments. I enjoy collaborating with teams and contributing to projects that solve real-world problems, especially in the areas of database design, scalable systems, and cloud-based architecture.
+
+I have experience in property management software development with **Entrata India**, where I worked within an Agile Scrum framework. I actively participated in sprint planning, project execution, and project management. I collaborated closely with cross-functional teams to deliver solutions that enhanced product performance and met client requirements. From optimizing SQL queries to developing scalable microservices, I consistently focused on improving system efficiency and addressing complex technical challenges.
+
+One of the highlights of my experience was developing a microservices-based architecture that improved system scalability by 50%, and reduced deployment time by 30%, utilizing technologies such as Docker and Kubernetes. I was also deeply involved in migrating thousands of client documents from local servers to AWS cloud storage, which resolved critical storage limitations and ensured data security and accessibility.
+
+I led several database projects under the guidance of a database architect with 21 years of experience, gaining in-depth knowledge in database management and architecture design. Utilizing these skills, I contributed to building database structures for various projects and also served as a virtual database administrator for the product. In this role, I delivered multiple database optimization solutions to enhance product efficiency.
+
+In addition to my technical expertise, I have worked on multiple projects in the affordable housing sector. I designed solutions for resident management, rental subsidy calculations, eligibility determination, and rent calculations. My contributions to the development of these systems ensured that they were reliable, secure, and user-friendly. I also worked on encrypting sensitive resident data ensuring full compliance with data protection standards.
+
+### Key Projects
+
+- **Microservices Architecture Development**: Spearheaded a project that improved scalability by 50% and reduced deployment times.
+- **AWS Cloud Migration**: Led the migration of 40% of client documents from on-premises servers to AWS S3, solving critical storage challenges.
+- **Income Limits Module Redesign**: Redesigned the income limits module using automation with Python and OpenAI, resulting in more efficient data handling and improved eligibility calculations for affordable housing.
+- **Sensitive Data Encryption**: Worked on encrypting sensitive resident data across the entire database to ensure compliance with security standards.
+- **State-wise Certification Documents**: Developed more than 56 state-specific certification documents for affordable housing using custom scripts and database integration.
+
+
+# Roles at Entrata India
+
+## Software Engineer (October 2018 - August 2024)
+In this role, I focused on developing scalable solutions within the property management software sector. My key responsibilities included:
+
+- **Database Architecture and Optimization**: Collaborated with cross-functional teams to build robust database structures and optimized SQL queries to enhance overall system efficiency.
+- **Product Development**: Created and deployed microservicable product which includes the improved system performance.
+- **Client Support**: Delivering optimization solutions to enhance product performance and address client requirements.
+- **Database administration**: Acted as a virtual database administrator and helped the team with various database solutions.
+- **Project Leading**: Led various projects, contributing to project management and project support.
+
+## Associate Software Engineer (July 2017 - September 2018)
+As an Associate Software Engineer, I gained foundational skills in web development and database management. My contributions included:
+
+- **Agile Practices**: Participated in daily stand-ups, sprint reviews, and retrospectives to ensure efficient project progress.
+- **Technical Support**: Provided troubleshooting assistance to resolve client issues, enhancing user experience.
+- **Mentorship**: Collaborated with senior engineers, learning advanced database management techniques and best practices.
+
+## Trainee (January 2017 - June 2017)
+In this initial role, I focused on acquiring essential skills in software development and database management. My responsibilities included:
+
+- **Training and Development**: Engaged in training sessions with experienced engineers, laying the groundwork for my subsequent roles.
+- **Project Assistance**: Assisted in various projects, contributing to code development and testing efforts.
+
+### Technical Skills  
+- **Databases**: PostgreSQL, MySQL  
+- **Backend Development**: PHP, Python  
+- **Frontend Technologies**: AJAX, HTML, JavaScript, jQuery  
+- **Cloud Technologies**: AWS, Docker, Kubernetes  
+- **Frameworks**: MVC, Singleton, Fusebox  
+- **Agile Tools**: Jira, ClickUp  
+- **Version Control**: GIT, SVN  
+
+### Education
+- **Master’s in Data Analytics Engineering**  
+  George Mason University, Virginia, USA (2024 - 2026)
+- **Bachelor of Technology in Computer Science & Technology**  
+  Sree Venkateshwara College of Engineering, Nellore, India (2013 - 2017)
+
+
+I'm always eager to connect with like-minded professionals and share ideas. Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/venkata-lakshmi-parimala-pasupuleti).
