@@ -3,7 +3,7 @@ title: "About Myself"
 ---
 
 
-![]("docs/docs/myimage.jpg")
+![](docs/images/myimage.jpg)
 
 
 
