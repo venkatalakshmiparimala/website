@@ -1,14 +1,18 @@
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
 ---
-title: "About Me"
+title: "About Us"
 ---
 
+![**VENKATA LAKSHMI PARIMALA PASUPULETI**](docs/docs/myimage.jpg){fig-align="left" width="162"}
 
-![](docs/myimage.jpg)
+![**KIRAN DABBIRIL**](docs/docs/WhatsApp Image 2024-09-30 at 09.55.45.jpeg){fig-align="left" width="160"}
 
+# Venkata Lakshmi Parimala Pasupuleti
 
-
-# Venkata Lakshmi Parimala Pasupuleti  
-### Software Engineer | Web & Database Development Specialist
+### Software Engineer \| Web & Database Development Specialist
 
 I have over seven years of experience in web development and database engineering, and my career has been built on a passion for creating high-quality, efficient solutions in dynamic work environments. I enjoy collaborating with teams and contributing to projects that solve real-world problems, especially in the areas of database design, scalable systems, and cloud-based architecture.
 
@@ -23,49 +27,66 @@ In addition to my technical expertise, I have worked on multiple projects in the
 # Experience
 
 ## Software Engineer (October 2018 - August 2024)
+
 In this role, I focused on developing scalable solutions within the property management software sector. My key responsibilities included:
 
-- **Database Architecture and Optimization**: Collaborated with cross-functional teams to build robust database structures and optimized SQL queries to enhance overall system efficiency.
-- **Product Development**: Created and deployed microservicable product which includes the improved system performance.
-- **Client Support**: Delivering optimization solutions to enhance product performance and address client requirements.
-- **Database administration**: Acted as a virtual database administrator and helped the team with various database solutions.
-- **Project Leading**: Led various projects, contributing to project management and project support.
+-   **Database Architecture and Optimization**: Collaborated with cross-functional teams to build robust database structures and optimized SQL queries to enhance overall system efficiency.
+-   **Product Development**: Created and deployed microservicable product which includes the improved system performance.
+-   **Client Support**: Delivering optimization solutions to enhance product performance and address client requirements.
+-   **Database administration**: Acted as a virtual database administrator and helped the team with various database solutions.
+-   **Project Leading**: Led various projects, contributing to project management and project support.
 
 ## Associate Software Engineer (July 2017 - September 2018)
+
 As an Associate Software Engineer, I gained foundational skills in web development and database management. My contributions included:
 
-- **Agile Practices**: Learned agile framework to deploy efficient projects, learned sprint deployment and retrospectives to ensure efficient project progress.
-- **Technical Support**: Provided troubleshooting assistance to resolve client issues, enhancing user experience.
-- **Mentorship**: Collaborated with senior engineers, learning advanced database management techniques and best practices.
+-   **Agile Practices**: Learned agile framework to deploy efficient projects, learned sprint deployment and retrospectives to ensure efficient project progress.
+-   **Technical Support**: Provided troubleshooting assistance to resolve client issues, enhancing user experience.
+-   **Mentorship**: Collaborated with senior engineers, learning advanced database management techniques and best practices.
 
 ## Trainee (January 2017 - June 2017)
+
 In this initial role, I focused on acquiring essential skills in software development and database management. My responsibilities included:
 
-- **Training and Development**: Engaged in training sessions with experienced engineers, laying the groundwork for my subsequent roles.
-- **Project Assistance**: Assisted in various projects, contributing to code development and testing efforts.
+-   **Training and Development**: Engaged in training sessions with experienced engineers, laying the groundwork for my subsequent roles.
+-   **Project Assistance**: Assisted in various projects, contributing to code development and testing efforts.
 
 ### Key Projects
 
-- **Microservices Architecture Development**: Spearheaded a project that improved scalability by 50% and reduced deployment times.
-- **AWS Cloud Migration**: Led the migration of 40% of client documents from on-premises servers to AWS S3, solving critical storage challenges.
-- **Automated Data Import into the system**: Redesigned a data module using automation with Python and OpenAI, to import 1,50,000 records every year resulting in more efficient data handling and improved eligibility calculations for affordable housing product.
-- **Sensitive Data Encryption**: Worked on encrypting sensitive resident data across the entire database to ensure compliance with security standards.
-- **Document Creation automation**: Developed more than 56 state-specific certification documents for affordable housing using custom scripts and database integration and automated the process of filling the certifications for every resident on certification process using object-oriented PHP, PostgreSQL, and Adobe techniques.
+-   **Microservices Architecture Development**: Spearheaded a project that improved scalability by 50% and reduced deployment times.
+-   **AWS Cloud Migration**: Led the migration of 40% of client documents from on-premises servers to AWS S3, solving critical storage challenges.
+-   **Automated Data Import into the system**: Redesigned a data module using automation with Python and OpenAI, to import 1,50,000 records every year resulting in more efficient data handling and improved eligibility calculations for affordable housing product.
+-   **Sensitive Data Encryption**: Worked on encrypting sensitive resident data across the entire database to ensure compliance with security standards.
+-   **Document Creation automation**: Developed more than 56 state-specific certification documents for affordable housing using custom scripts and database integration and automated the process of filling the certifications for every resident on certification process using object-oriented PHP, PostgreSQL, and Adobe techniques.
 
-### Technical Skills  
-- **Databases**: PostgreSQL, MySQL  
-- **Backend Development**: PHP, Python  
-- **Frontend Technologies**: AJAX, HTML, JavaScript, jQuery  
-- **Cloud Technologies**: AWS, Docker, Kubernetes  
-- **Frameworks**: MVC, Singleton, Fusebox  
-- **Agile Tools**: Jira, ClickUp  
-- **Version Control**: GIT, SVN  
+### Technical Skills
+
+-   **Databases**: PostgreSQL, MySQL\
+-   **Backend Development**: PHP, Python\
+-   **Frontend Technologies**: AJAX, HTML, JavaScript, jQuery\
+-   **Cloud Technologies**: AWS, Docker, Kubernetes\
+-   **Frameworks**: MVC, Singleton, Fusebox\
+-   **Agile Tools**: Jira, ClickUp\
+-   **Version Control**: GIT, SVN
 
 ### Education
-- **Master’s in Data Analytics Engineering**  
-  George Mason University, Virginia, USA (2024 - 2026)
-- **Bachelor of Technology in Computer Science & Technology**  
-  Sree Venkateshwara College of Engineering, Nellore, India (2013 - 2017)
 
-I’m always excited to connect with fellow professionals and exchange ideas. Don’t hesitate to reach out to me on [LinkedIn](https://www.linkedin.com/in/venkata-lakshmi-parimala-pasupuleti) or via email at <venkatalakshmiparimala@gmail.com>.
+-   **Master’s in Data Analytics Engineering**\
+    George Mason University, Virginia, USA (2024 - 2026)
 
+-   **Bachelor of Technology in Computer Science & Technology**\
+    Sree Venkateshwara College of Engineering, Nellore, India (2013 - 2017)
+
+# Kiran Dabbiril
+
+**Name: Kiran Dabbiril**
+
+**Gnumber: #G01512356**
+
+I am Kiran Dabbiril. I am from Visakhapatnam (City of Destiny), Andhra Pradesh which is located in India. I worked as a Process Analyst with **Deputy Manager** designation in the well esteemed organization **ICICI Bank Pvt. Ltd**. I have experience of more than 3 years in internal audit process. My role was to find the anomalies in the jewel loan product and submit the anomalies to the respective stakeholders by raising the service requests. I was also a part of the in developing a project where the text extracted from food and transport receipts uploaded by the ICICI employees. This has reduced the throughput time for data cleaning for 8 hours and increased the efficiency by reducing the manual efforts. I have knowledge in python, Fraud Analysis, SQL, Jupyter and all the Customer Operations. I also play a major role in reporting all the anomalies and critical findings related substandard activities and recommend the necessary steps for the compliance closure.
+
+I am pursuing my **Master’s in Data Analytics Engineering in George Mason University**, Fairfax located in Virginia state in United States of America. I completed by undergrad in the field of Computer Science in Andhra University which is located in Andhra Pradesh. I scored a GPA of 8.02 with distinction.
+
+During my undergrad I did my project on **Detecting Anomalies Users Behavior On Social Networking**. I was the team lead in my undergrad project. In his project we aimed at understanding the users’ patterns in the dataset that is available at Andhra University for educational purposes. We collected a nearly one million row dataset that contains users' personas like name, age, gender, along with user actions such as number of clicks, number of messages sent, Posts shared. We then trained a K-means unsupervised model on a sample small data set to detect outliers. From this K-means output, we drafted a labelled dataset with two classes for fraud detection and non-fraud detection and then used Logistic regression modeling to classify the user profile to be anomalous or normal. The experience in ICICI Bank made me so confident in my skills and work. I used to handle a team and conducts internal audits all over the state and find the anomalies and submit the same to the respective stakeholders. During this process I learnt how to handle a team and how to organize the work responsibilities accordingly. During my undergrad, I was the team lead in all the projects, events and many fest fairs organized which made my skills grew and helped me in my work. I I was the class representative and assisted the professors in all the class hold activities. I also attended the seminars on Artificial Intelligence, Web Security, Microsoft Azure where I gained a lot of knowledge in these fields. I did my internship in HEWLETT PACKARD on developing a web application on online shopping using CORE JAVA, JSP where it uses JDBC to interface the database. I also participated in **SMART INDIA HACKTHON** conducted by the **DIGITAL INDIA in 2017** and was nominated in finale.
+
+Currently, I am focusing on upskilling my technologies which helps me to handle data analysts programming and also I have a future goal to become Data Analyst or Data Scientist in one of the reputed companies. I am preparing myself in enhancing my skills in the field of data analytics. I am looking forward to apply my skills in new and challenging environments.

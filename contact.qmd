@@ -1,0 +1,20 @@
+---
+title: "Contact Information"
+format: html
+editor: visual
+---
+
+If you would like to get in touch, feel free to reach out through the following:
+
+#### Venkata Lakshmi Parimala Pasupuleti
+
+-   **Email**: [venkatalakshmiparimala\@gmail.com](mailto:venkatalakshmiparimala@gmail.com)
+-   **Phone**: +1 703-261-5410
+-   **LinkedIn**: [Venkata Lakshmi Parimala Pasupuleti](https://www.linkedin.com/in/venkata-lakshmi-parimala-pasupuleti/)
+
+#### Kiran Dabbiril
+
+-   **Email**: [dabbiru.kiran03\@gmail.com](mailto:dabbiru.kiran03@gmail.com)
+-   **Phone**: +1 571-663-5603
+
+We look forward to hearing from you!

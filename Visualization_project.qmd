@@ -1,0 +1,382 @@
+---
+title: "Re-Visualization Project"
+format: html
+editor: visual
+execute:
+  warning: false
+---
+
+## Introduction:
+
+### **OLD VISUALIZATION:**
+
+![](images/suicide-rate-who-mdb-02.svg)
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+# Load required libraries
+
+suppressWarnings({
+ library(tidyverse)
+library(ggplot2)
+library(plotly)  
+library(maps)
+library(leaflet)
+library(readr)
+
+  library(plotly)
+  library(dplyr)
+  library(viridis)  
+
+})
+
+
+
+```
+
+```{r}
+# Load necessary libraries
+library(dplyr)  # For data manipulation
+library(leaflet)  # For creating interactive maps
+library(rnaturalearth)  # For world map data
+
+# Load the data (change the path to where your file is stored)
+suicide_data <- read.csv("suicide-rates-all.csv")
+
+# Summarize the data to get the average suicide rate for each country
+average_suicide_rate <- suicide_data %>%
+  group_by(Country) %>%
+  summarise(Average_Suicide_Rate = mean(suscide.rate, na.rm = TRUE), .groups = "drop")  # Add .groups = "drop" to avoid warnings
+
+# Load world map data
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+# Merge world map data with average suicide rates
+world_data <- merge(world, average_suicide_rate, by.x = "name", by.y = "Country", all.x = TRUE)
+
+# Create color palette for suicide rates
+pal <- colorNumeric(palette = "YlOrRd", domain = world_data$Average_Suicide_Rate, na.color = "transparent")
+
+# Create interactive leaflet map
+leaflet(world_data) %>%
+  addTiles() %>%
+  addPolygons(
+    fillColor = ~pal(Average_Suicide_Rate),
+    weight = 1,
+    opacity = 1,
+    color = "white",
+    dashArray = "3",
+    fillOpacity = 0.7,
+    highlight = highlightOptions(
+      weight = 5,
+      color = "#666",
+      dashArray = "",
+      fillOpacity = 0.7,
+      bringToFront = TRUE
+    ),
+    label = ~paste(name, "Average Suicide Rate: ", round(Average_Suicide_Rate, 2)),
+    labelOptions = labelOptions(
+      style = list("font-weight" = "normal", padding = "3px 8px"),
+      textsize = "15px",
+      direction = "auto"
+    )
+  ) %>%
+  addLegend(pal = pal, values = ~Average_Suicide_Rate, opacity = 0.7, title = "Average Suicide Rate", position = "bottomright") %>%
+  addControl("<strong>Average Suicide Rates by Country</strong>", position = "topright", 
+             className = "map-title")  # Add title to the map
+
+
+
+```
+
+```{r}
+
+
+
+# Load the data (change the path to where your file is stored)
+suicide_data <- read.csv("suicide-rates-all.csv")
+
+# Calculate the overall average suicide rate for each year across all countries
+yearly_avg_suicide_rate <- suicide_data %>%
+  group_by(Year) %>%
+  summarise(Average_Suicide_Rate = mean(suscide.rate, na.rm = TRUE))
+
+# Find the year with the highest overall average suicide rate
+top_year <- yearly_avg_suicide_rate %>%
+  filter(Average_Suicide_Rate == max(Average_Suicide_Rate)) %>%
+  pull(Year)
+
+# Filter the data to include only the data for the top year
+top_year_data <- suicide_data %>%
+  filter(Year == top_year)
+
+# Load world map data
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+# Merge world map data with suicide rate data for the top year
+world_data <- merge(world, top_year_data, by.x = "name", by.y = "Country", all.x = TRUE)
+
+# Create color palette for the suicide rates in the top year
+pal <- colorNumeric(palette = "YlOrRd", domain = world_data$suscide.rate, na.color = "transparent")
+
+# Create interactive leaflet map
+map <- leaflet(world_data) %>%
+  addTiles() %>%
+  addPolygons(
+    fillColor = ~pal(suscide.rate),
+    weight = 1,
+    opacity = 1,
+    color = "white",
+    dashArray = "3",
+    fillOpacity = 0.7,
+    highlight = highlightOptions(
+      weight = 5,
+      color = "#666",
+      dashArray = "",
+      fillOpacity = 0.7,
+      bringToFront = TRUE
+    ),
+    label = ~paste(name, "<br> Suicide Rate: ", round(suscide.rate, 2)),
+    labelOptions = labelOptions(
+      style = list("font-weight" = "normal", padding = "3px 8px"),
+      textsize = "15px",
+      direction = "auto"
+    )
+  ) %>%
+  addLegend(pal = pal, values = ~suscide.rate, opacity = 0.7, title = paste("Suicide Rate in", top_year), position = "bottomright")%>%
+addControl("<strong>Average Suicide Rates of all the ages by Country for the top rated year: 1982</strong>", position = "topright", 
+             className = "map-title")  # Add title to the map
+
+# Show the map
+map
+```
+
+```{r}
+
+
+# Read the data
+data <- read_csv(
+  "C:\\Users\\Venkata\\Desktop\\stat1\\Website project\\website\\suicide-rates-all.csv",
+  col_types = cols(
+    Country = col_character(),
+    Code = col_character(),
+    Year = col_double(),
+    `suscide-rate` = col_double()
+  )
+)
+
+# Step 1: Calculate the average suicide rate for each year
+avg_suicide_by_year <- data %>%
+  group_by(Year) %>%
+  summarise(Average_suicide_rate = round(mean(`suscide-rate`, na.rm = TRUE), 2), .groups = "drop")
+
+# Step 2: Create the frequency polygon
+frequency_polygon <- ggplot(avg_suicide_by_year, aes(x = Year, y = Average_suicide_rate)) +
+  geom_line(stat = "identity", color = "blue", size = 1) +  # Line to connect data points
+  geom_point(color = "red") +  # Points for each year
+  labs(title = "Average Suicide Rates by Year all over the world", 
+       x = "Year", 
+       y = "Average Suicide Rate per 100,000") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold"), 
+    axis.title.x = element_text(face = "bold"), 
+    axis.title.y = element_text(face = "bold")
+  )
+
+# Convert the frequency polygon to an interactive plot
+interactive_frequency_polygon <- ggplotly(frequency_polygon)
+
+# Show the interactive frequency polygon
+interactive_frequency_polygon
+```
+
+```{r}
+# Load required libraries
+library(ggplot2)
+library(dplyr)
+library(plotly)
+library(readr)  # Ensure you have the readr library to read CSV files
+
+# Read the data
+data <- read_csv(
+  "C:\\Users\\Venkata\\Desktop\\stat1\\Website project\\website\\suicide-rates-all.csv",
+  col_types = cols(
+    Country = col_character(),
+    Code = col_character(),
+    Year = col_double(),
+    `suscide-rate` = col_double()
+  )
+)
+
+# Step 1: Find top 5 countries with highest average suicide rates
+top_5_countries <- data %>%
+  group_by(Country) %>%
+  summarise(avg_suicide_rate = round(mean(`suscide-rate`, na.rm = TRUE), 2), .groups = "drop") %>%
+  top_n(5, wt = avg_suicide_rate) %>%
+  arrange(desc(avg_suicide_rate))
+
+# Step 2: Filter the original data to keep only the top 5 countries
+data_top_countries <- data %>%
+  filter(Country %in% top_5_countries$Country)
+
+# Step 3: Find the top 5 unique years with highest suicide rates across all top countries
+top_years <- data_top_countries %>%
+  arrange(desc(`suscide-rate`)) %>%
+  distinct(Year, .keep_all = TRUE) %>%  # Keep only unique years
+  slice_head(n = 5) %>%  # Get top 5 unique years
+  pull(Year)  # Extract the years
+
+# Step 4: Filter the data for the top 5 countries and the selected top years
+top_5_years_data <- data_top_countries %>%
+  filter(Year %in% top_years) %>%
+  group_by(Country, Year) %>%
+  summarise(`suscide-rate` = round(mean(`suscide-rate`, na.rm = TRUE), 2), .groups = "drop") %>%
+  arrange(Country, desc(`suscide-rate`))  # Sort for final presentation
+
+# Step 5: Expand the custom color palette to match the number of unique years
+unique_years <- length(unique(top_5_years_data$Year))
+color_palette <- colorRampPalette(c("orange", "red"))(unique_years)
+
+# Step 6: Create the plot using ggplot
+plot <- ggplot(top_5_years_data, aes(x = Country, y = `suscide-rate`, fill = factor(Year))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  coord_flip() +
+  scale_fill_manual(values = color_palette, name = "Year") +  # Use the custom palette
+  labs(title = "Top 5 Years with Highest Suicide Rates in Top 5 Countries", 
+       x = "Country", 
+       y = "Suicide Rate per 100,000") +
+  theme_minimal()
+
+# Step 7: Convert the plot to an interactive plot using plotly
+# Use sprintf to format the suicide rates to 2 decimal places in the tooltip
+interactive_plot <- ggplotly(plot) %>%
+  style(hoverinfo = "text", 
+        text = paste("Country: ", top_5_years_data$Country, "<br>",
+                     "Year: ", top_5_years_data$Year, "<br>",
+                     "Suicide Rate: ", sprintf("%.2f", top_5_years_data$`suscide-rate`)))
+
+# Show the interactive plot
+interactive_plot
+
+
+
+```
+
+```{r}
+
+# Load necessary libraries
+library(tidyverse)
+library(plotly)
+library(rnaturalearth)
+library(sf)
+
+# Read the data
+# Load necessary libraries
+library(tidyverse)
+library(plotly)
+library(rnaturalearth)
+library(sf)
+
+# Read the data
+data <- read.csv("C:\\Users\\Venkata\\Desktop\\stat1\\Website project\\website\\suicide-rates-by-age.csv")
+
+# Clean column names for easier access
+colnames(data) <- c("Entity", "Code", "Year", 
+                    "Death_rate_15_19", "Death_rate_20_24", "Death_rate_25_29", 
+                    "Death_rate_30_34", "Death_rate_35_39", "Death_rate_40_44", 
+                    "Death_rate_45_49", "Death_rate_50_54", "Death_rate_55_59", 
+                    "Death_rate_60_64", "Death_rate_65_69", "Death_rate_70_74", 
+                    "Death_rate_75_79", "Death_rate_80_84", "Death_rate_over_85")
+
+# Filter for the 15-19 age group and calculate the sum of averages across all years for each country
+data_summary <- data %>%
+  filter(!is.na(Death_rate_15_19)) %>%
+  group_by(Entity) %>%
+  summarise(Average_suscide_rate = sum(Death_rate_15_19, na.rm = TRUE), .groups = "drop") %>%
+  mutate(Average_suscide_rate = round(Average_suscide_rate, 2))  # Round to 2 decimals
+
+# Load the world map using the rnaturalearth package
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+# Join suicide data with the world map
+world_data <- world %>%
+  left_join(data_summary, by = c("name" = "Entity"))
+
+# Plot the map using ggplot with shades of red
+p <- ggplot(world_data) +
+  geom_sf(aes(fill = Average_suscide_rate, text = name), color = "white") +
+  scale_fill_gradient(low = "#ffcccc", high = "#990000", na.value = "grey50", 
+                      name = "Suicide Rate per 100,000") +
+  theme_void() +
+  labs(title = "Average Suicide Rates for Age 15-19 over the Years")
+
+# Convert ggplot to an interactive plotly map
+interactive_map <- ggplotly(p, tooltip = c("text", "fill"))
+
+# Show the interactive map
+interactive_map
+
+
+
+
+
+```
+
+```{r}
+
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(plotly)
+
+# Load the data
+data <- read.csv("C:\\Users\\Venkata\\Desktop\\stat1\\Website project\\website\\suicide-rates-by-age.csv")
+
+# Clean column names for easier access
+colnames(data) <- c("Entity", "Code", "Year", 
+                    "Death_rate_15_19", "Death_rate_20_24", "Death_rate_25_29", 
+                    "Death_rate_30_34", "Death_rate_35_39", "Death_rate_40_44", 
+                    "Death_rate_45_49", "Death_rate_50_54", "Death_rate_55_59", 
+                    "Death_rate_60_64", "Death_rate_65_69", "Death_rate_70_74", 
+                    "Death_rate_75_79", "Death_rate_80_84", "Death_rate_over_85")
+
+# Filter the data for the 15-19 age group and remove missing values
+data_filtered <- data %>%
+  filter(!is.na(Death_rate_15_19))
+
+# Calculate the average suicide rate for each country across all years
+avg_suicide_rate <- data_filtered %>%
+  group_by(Entity) %>%
+  summarise(suscide_Rate = round(mean(Death_rate_15_19, na.rm = TRUE),2)) %>%
+  arrange(desc(suscide_Rate))%>%
+  top_n(20, suscide_Rate)
+
+
+
+# Create the bar plot with ggplot
+bar_plot <- ggplot(avg_suicide_rate, aes(x = reorder(Entity, suscide_Rate), 
+                                           y = suscide_Rate, 
+                                           fill = suscide_Rate)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +  # Flip coordinates to make country names readable
+  scale_fill_gradient(low = "#ffcccc", high = "#990000") +  # Light red to dark red gradient
+  labs(title = "Average Suicide Rate for Age 15-19 (All Years)", 
+       x = "Country", 
+       y = "Average Suicide Rate per 100,000 Population") +
+  theme_minimal() +
+  theme(axis.text.y = element_text(angle = 0, hjust = 1, size = 8)) +  # Adjust text angle and size
+  theme(plot.margin = margin(10, 10, 10, 40))  # Adjust margins
+
+# Convert to an interactive plot with plotly
+interactive_plot <- ggplotly(bar_plot, tooltip = c("suscide_Rate"))
+
+# Show the interactive plot
+interactive_plot
+
+
+
+```

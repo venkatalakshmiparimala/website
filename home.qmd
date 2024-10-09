@@ -1,0 +1,45 @@
+---
+title: "Welcome to the Global Suicide Data Visualization!"
+format: html
+editor: visual
+---
+
+## Understanding Global Suicide Rates (1950-2022)
+
+Suicide, a complex public health issue, is responsible for approximately 828,000 deaths globally each year. Understanding the factors contributing to suicide and effectively visualizing this data can help reduce stigma and foster preventive measures. This project aims to provide a clearer understanding of suicide rates worldwide from 1950 to 2022.
+
+## Key Insights:
+
+## Global Trends
+
+The project analyzes variations in suicide rates across different countries, highlighting the alarming statistics in nations such as Lithuania and South Korea.
+
+## Demographic Focus
+
+We break down data by age groups to identify trends, particularly concerning the vulnerability of younger populations.
+
+## Visual Improvements
+
+Previous visualizations faced issues like clutter and poor categorization. Our re-visualization employs world maps and interactive graphs to enhance clarity and engagement.
+
+## Visualizations Include
+
+-   **Average Suicide Rates by Country (1950-2022):** An interactive world map displaying the average suicide rates per 100,000 people, allowing for a deeper exploration of regional data.
+
+-   **Peak Suicide Rates (1982):** Visualization of the highest average suicide rates by country during this pivotal year.
+
+-   **Yearly Trends (1950-2022):** A frequency polygon graph showcasing the global trend in suicide rates over time.
+
+-   **Top Countries and Years:** Bar graphs detailing the top five countries with the highest suicide rates and their corresponding peak years.
+
+## Objective
+
+This project not only aims to present statistical data effectively but also to foster discussions on suicide prevention and the importance of mental health awareness.\
+
+## More Information
+
+You can find more information about the project visualization, the code used, and their references on the following pages:
+
+-   Project Summary
+-   Project Source Code
+-   References

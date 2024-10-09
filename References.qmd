@@ -1,0 +1,18 @@
+---
+title: ""
+format: html
+editor: visual
+---
+
+The data and insights used in this project are sourced from the following:
+
+Data CSV: - [Download file1.csv](suicide-rates-all.csv){download="suicide-rates-all.csv"}
+- [Download file2.csv](suicide-rates-by-age.csv){download="suicide-rates-by-age.csv"}
+
+Click the links above to download the CSV files used for the analysis.
+
+# References
+
+\[1\] "Suicide," Our World in Data. \[Online\]. Available: <https://ourworldindata.org/suicide>. \[Accessed: Oct. 8, 2024\].
+
+For more detailed information, please refer to the original publication.
